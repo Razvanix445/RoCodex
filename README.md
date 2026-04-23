@@ -1,13 +1,3 @@
-Create the dataset by scraping:
-`del data\laws.jsonl`
-`del data\articles.jsonl`
-`python pipeline.py --ids 65851 53158 7816 35684`
-`python ../inspect.py`
-
-`streamlit run app.py`
-
-
-
 # RoCodex — Romanian Legal Assistant
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
@@ -133,7 +123,7 @@ pip install -r requirements.txt
 Scrape the laws you want to index. Specify IDs manually.
 
 ```bash
-python pipeline.py --ids 41627 175630 109855
+python pipeline.py --ids 65851 53158 7816 35684
 ```
 
 This produces `data/laws.jsonl` and `data/articles.jsonl`.
