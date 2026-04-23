@@ -1,0 +1,12 @@
+scraper/data/
+
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+venv/
+.env/
+env/
+.env
+*.env
