@@ -7,6 +7,7 @@
 [![HuggingFace](https://img.shields.io/badge/🤗%20Hugging%20Face-FFD21E?style=for-the-badge)](https://huggingface.co/)
 
 > Ask questions about Romanian law and get cited, sourced answers backed by real legal articles.
+> > 🚀 [**Live Demo**](https://huggingface.co/spaces/Razvanix/RoCodex)
 
 RoCodex is a **RAG-powered** (Retrieval-Augmented Generation) legal assistant that scrapes Romanian legislation directly from the official government portal, `legislatie.just.ro`, indexes it using semantic vector search, and answers questions by retrieving the most relevant law articles and passing them to an LLM. The AI never answers from memory. Every response is grounded in real, retrieved legal text.
 
